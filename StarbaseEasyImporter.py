@@ -53,8 +53,7 @@ class Frame(wx.Frame):
         drop_panel.SetBackgroundColour("white")
         drop_panel.SetDropTarget(FileDropCopy(drop_panel))
 
-        wx.StaticText(panel, -1, "Create by Masakk", (10, 330))
-        wx.StaticText(panel, -1, "Starbase Easy Importer v1.0", (10, 350))
+        wx.StaticText(panel, -1, "Starbase Easy Importer v1.0\nCreate by Masakk(masa002)", (10, 330))
 
     def GetRadio(self):
         if self.FindWindowById(1).GetStringSelection() == "Overwrite":
