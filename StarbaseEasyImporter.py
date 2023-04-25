@@ -37,7 +37,7 @@ class FileDropCopy(wx.FileDropTarget):
 
 class Frame(wx.Frame):
     def __init__(self, parent, id, title):
-        wx.Frame.__init__(self, parent, id, title, size=(235, 410))
+        wx.Frame.__init__(self, parent, id, title, size=(235, 410), style=wx.DEFAULT_FRAME_STYLE & ~(wx.RESIZE_BORDER))
         
         panel = wx.Panel(self)
         
