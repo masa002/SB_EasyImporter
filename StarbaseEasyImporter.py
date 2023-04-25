@@ -1,5 +1,6 @@
 import wx
 import os
+import sys
 import shutil
 
 class FileDropCopy(wx.FileDropTarget):
